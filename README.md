@@ -3,11 +3,13 @@ This is a simple coding practice, made in order to highlight the differences bet
 
 ## Write the following according to the TypeScript syntax
 ### Part one
+```
 let employee = {};
 employee.code = 10;
 employee.name = "John";
-
+```
 ### Part two
+```
 let person0 = {};
 person0.name = "mary";
 person0.age = 29;
@@ -29,8 +31,9 @@ let person3 = {
     age = 19,
     profession = "baker"
 }
-
+```
 ### Part three
+```
 let buttonUpdate = document.getElementById('update-balance');
 let buttonClear = document.getElementById('clear-balance');
 let sum = document.getElementById('sum');
@@ -53,3 +56,4 @@ buttonUpdate.addEventListener('click', function () {
 buttonClear.addEventListener('click', function () {
     clearBalance();
 });
+```
